@@ -1,0 +1,71 @@
+# Node.js / npm
+node_modules/
+dist/
+build/
+*.tsbuildinfo
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Vite
+.vite/
+.parcel-cache/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Editor & IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+.history
+*.code-workspace
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+htmlcov/
+*.egg-info/
+dist/
+build/
+
+# Backend specific
+Backend/__pycache__/
+Backend/*.pyc
+Backend/.env
+Backend/.env.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test coverage
+coverage/
+coverage-final.json
+
+# Misc
+.history
+*.log
+*.lock
